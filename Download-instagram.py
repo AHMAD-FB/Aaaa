@@ -1,7 +1,7 @@
 import requests
 import os
 import telebot
-token = input(" << Enter Token telegram >> : ")
+token = ("5284899386:AAErmTVmWbzTlo_YvDx4RJAYMYDFwhyQilo")
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=["start"])
 def start(message):
