@@ -1,7 +1,7 @@
 import requests
 import os
 import telebot
-token = ("5284899386:AAErmTVmWbzTlo_YvDx4RJAYMYDFwhyQilo")
+token = ("6641109015:AAFGV3YnJeD-ZyUchguSfGTompfiF1-jyXY")
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=["start"])
 def start(message):
