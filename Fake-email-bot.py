@@ -1,15 +1,15 @@
 import requests
 import telebot
 from telebot import types
-tokin = input("EnTeR ToKeN : ")
+tokin = ("7620257010:AAGn4FtQ6BFIddNN2c14q6MPRQZt3EhNxaU")
 while True:
     try:
         bot = telebot.TeleBot(tokin)
         @bot.message_handler(commands=['start'])
         def welcome(message):
             start = types.InlineKeyboardButton(text="𝘀𝘁𝗮𝗿𝘁 ▶'✅ ",callback_data="start")
-            ch0 = types.InlineKeyboardButton(text="𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  🧑‍💻 ",url="https://t.me/Abdullah_Abd_alsalam")
-            ch1 = types.InlineKeyboardButton(text="𝗞𝗲𝘆 📎",url="https://t.me/u_zzf")
+            ch0 = types.InlineKeyboardButton(text="𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  🧑‍💻 ",url="https://t.me/AHMED_SNDE")
+            ch1 = types.InlineKeyboardButton(text="𝗞𝗲𝘆 📎",url="https://t.me/paivak")
             Keyboards = types.InlineKeyboardMarkup()
             Keyboards.row_width = 1
             Keyboards.add(start,ch0,ch1)
